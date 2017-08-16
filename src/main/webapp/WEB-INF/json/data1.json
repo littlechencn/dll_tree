@@ -1,0 +1,45 @@
+{
+  "name": "acledit.dll",
+  "children": [
+    {
+      "name": "dlls/",
+      "children": [
+        {
+          "name": "dlls/acledit/acledit.spec"
+        },
+        {
+          "name": "dlls/acledit/main.c"
+        },
+        {
+          "name": "dlls/acledit/Makefile.in"
+        }
+      ]
+    },
+    {
+      "name": "include/",
+      "children": [
+        {
+          "name": "include/wfext.h"
+        },
+        {
+          "name": "include/winbase.h"
+        },
+        {
+          "name": "include/windef.h"
+        },
+        {
+          "name": "include/wine/debug.h"
+        },
+        {
+          "name": "include/wine/unicode.h"
+        },
+        {
+          "name": "include/winuser.h"
+        },
+        {
+          "name": "stdarg.h"
+        }
+      ]
+    }
+  ]
+}

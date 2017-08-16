@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dll_tree:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="dlltree.war">
+      <element id="artifact" artifact-name="dll_tree:war exploded" />
+    </root>
+  </artifact>
+</component>

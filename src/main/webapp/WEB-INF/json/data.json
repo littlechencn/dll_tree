@@ -1,0 +1,213 @@
+{
+  "name":"全部动态库",
+  "children":
+  [
+    {
+      "name":"系统服务" ,
+      "children":
+      [
+        {"name":"系统核心库" },
+        {"name":"COM组件支持",
+         "children":
+          [
+            {"name":"COM+"},
+            {"name":"OLE"},
+            {"name":"COM"} 
+          ]
+		},
+        {"name":"IE平台" },
+        {"name":"电源管理" },
+		{"name":"内存与任务管理" },
+		{"name":"压缩" }
+      ]
+    },
+    {
+      "name":"安全和身份" ,
+      "children":
+      [
+        {"name":"授权和验证"},
+        {"name":"密码"},
+        {"name":"安全"},
+		{"name":"用户"},
+        {"name":"权限管理"}
+      ]
+    },
+    {
+      "name":"网络和互联网",
+      "children":
+      [
+        {"name":"远程访问服务"},
+        {"name":"DHCP"},
+        {"name":"DNS"},
+        {"name":"Http"},
+		{"name":"NETWORK DDE"},
+        {"name":"Configure"},
+        {"name":"SNMP"},
+        {"name":"IP"},
+		{"name":"SIP"},
+        {"name":"ICMP"},
+        {"name":"WebDAV"},
+        {"name":"Internet"},
+		{"name":"MP Router"},
+        {"name":"WLAN"},
+        {"name":"Sensor"},
+        {"name":"PCAP"},
+		{"name":"socket"},
+        {"name":"LDAP"},
+        {"name":"MAPI"},
+        {"name":"Bluetooth"},
+		{"name":"网络功能"},
+        {"name":"电话"},
+        {"name":"Windows Filting Platform"},
+        {"name":"其他 "}
+      ]
+    },
+    {
+      "name":"图形和游戏" ,
+      "children":
+      [
+        {"name":"D2D"},
+        {"name":"Direct 3D"},
+        {"name":"Direct Draw"},
+        {"name":"DirectInput"},
+		{"name":"DirectMusic"},
+        {"name":"DirectPlay"},
+        {"name":"DirectShow"},
+        {"name":"DirectSound"},
+		{"name":"DirectX"},
+        {"name":"Game"},
+        {"name":"DOM"},
+        {"name":"Ctl3d"},
+		{"name":"xinput"},
+        {"name":"gdi"},
+        {"name":"image component"},
+        {"name":"其他  "}
+      ]
+    },
+	{
+      "name":"文件和打印" ,
+      "children":
+      [
+        {"name":"文件"},
+        {"name":"打印"}
+      ]
+    },
+	{
+      "name":"诊断" 
+    },
+	{
+      "name":"设备和驱动" ,
+      "children":
+      [
+        {"name":"设备"},
+        {"name":"驱动"}
+      ]
+    },
+	{
+      "name":"数据访问和存储" ,
+      "children":
+      [
+        {"name":"Extensible Storage Engine"},
+        {"name":"数据库访问"},
+        {"name":"XML "},
+        {"name":"IOStreams"},
+		{"name":"文件和文件系统访问"},
+        {"name":"DCL"},
+        {"name":"存储"}
+      ]
+    },
+	{
+      "name":"多媒体" ,
+      "children":
+      [
+        {"name":"Media基础"},
+        {"name":"Video"},
+        {"name":"Audio"},
+        {"name":"图片"},
+		{"name":"MCI"}
+      ]
+    },
+	{
+      "name":"应用安装和服务" 
+    },
+	{
+      "name":"桌面环境" ,
+      "children":
+      [
+        {"name":"Runtime"},
+        {"name":"ATL"},
+        {"name":"Shell"},
+        {"name":"Windows Help"},
+		{"name":"Property"}
+      ]
+    },
+	{
+      "name":"UI" ,
+      "children":
+      [
+        {"name":"Edit"},
+        {"name":"Language"},
+        {"name":"Font"},
+        {"name":"Color"},
+		{"name":"Dialog"},
+        {"name":"Windows Contorls"},
+        {"name":"Local Monitor"},
+        {"name":"其他   "}
+      ]
+    },
+	{
+      "name":"控制面板" 
+    },
+	{
+      "name":"硬件" 
+    },
+	{
+      "name":"服务器技术" 
+    },
+	{
+      "name":"移动和嵌入式"     
+    },
+	{
+      "name":".net"   
+    },
+	{
+      "name":"Office"   
+    },
+	{
+      "name":"事务"   
+    },
+	{
+      "name":"加载"   
+    },
+	{
+      "name":"Windows Update"   
+    },
+	{
+      "name":"Unicode"   
+    },
+	{
+      "name":"开发工具"   
+    },
+	{
+      "name":"EXE"   
+    },
+	{
+      "name":"Com组件"   
+    },
+	{
+      "name":"api-ms-*"   
+    },
+	{
+      "name":"ext-ms-*"   
+    },
+	{
+      "name":"dll16/drv16"   
+    },
+	{
+      "name":"未实现"   
+    },
+	{
+      "name":"其他"    
+    }
+  ]
+}
